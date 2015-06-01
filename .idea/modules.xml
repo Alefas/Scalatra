@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-atmosphere.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-atmosphere.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-atmosphere-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-atmosphere-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-auth.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-auth-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-auth-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-cache.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-cache-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-cache-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-cache-guava.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-cache-guava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-cache-guava-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-cache-guava-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-commands.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-commands.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-commands-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-commands-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-common.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-common-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-common-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-example.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-example-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-example-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-fileupload.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-fileupload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-fileupload-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-fileupload-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-jetty.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-jetty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-jetty-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-jetty-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-json.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-json-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-json-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-metrics.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-metrics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-metrics-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-metrics-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-project.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-project-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-project-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-scalate.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-scalate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-scalate-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-scalate-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-scalatest.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-scalatest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-scalatest-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-scalatest-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-slf4j.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-slf4j.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-slf4j-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-slf4j-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-specs2.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-specs2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-specs2-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-specs2-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-spring.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-spring-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-spring-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-swagger.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-swagger-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-swagger-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-swagger-ext.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-swagger-ext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-swagger-ext-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-swagger-ext-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-test.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatra-test-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatra-test-build.iml" />
+    </modules>
+  </component>
+</project>

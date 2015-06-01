@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: org.atmosphere:atmosphere-compat-jbossweb:2.0.1:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.ivy/cache/org.atmosphere/atmosphere-compat-jbossweb/bundles/atmosphere-compat-jbossweb-2.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

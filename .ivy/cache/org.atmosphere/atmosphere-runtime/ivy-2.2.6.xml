@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="org.atmosphere"
+		module="atmosphere-runtime"
+		revision="2.2.6"
+		status="release"
+		publication="20150303014726"
+	>
+		<description homepage="https://github.com/Atmosphere/atmosphere" />
+		<m:properties__grizzly-version>1.9.57</m:properties__grizzly-version>
+		<m:properties__jetty8-version>8.1.9.v20130131</m:properties__jetty8-version>
+		<m:properties__jbossaswebsockets-version>0.5</m:properties__jbossaswebsockets-version>
+		<m:properties__junit-version>3.8.1</m:properties__junit-version>
+		<m:dependency.management__org.apache.maven__maven-plugin-tools-api__version>2.0</m:dependency.management__org.apache.maven__maven-plugin-tools-api__version>
+		<m:properties__common-logging-version>1.1.1</m:properties__common-logging-version>
+		<m:dependency.management__org.apache.felix__maven-bundle-plugin__version>2.3.7</m:dependency.management__org.apache.felix__maven-bundle-plugin__version>
+		<m:properties__wicket.version>1.4.12</m:properties__wicket.version>
+		<m:properties__servlet-version>3.0-b74b</m:properties__servlet-version>
+		<m:properties__scala.version>2.9.2</m:properties__scala.version>
+		<m:properties__tomcat-version>6.0.35</m:properties__tomcat-version>
+		<m:properties__spring-version>3.0.6.RELEASE</m:properties__spring-version>
+		<m:properties__maven-plugin.version>1.0.0</m:properties__maven-plugin.version>
+		<m:properties__grizzly10-version>1.0.31</m:properties__grizzly10-version>
+		<m:properties__compat-version>2.0.1</m:properties__compat-version>
+		<m:properties__jgroups-version>3.1.0.Final</m:properties__jgroups-version>
+		<m:properties__jackson-version>1.3.1</m:properties__jackson-version>
+		<m:properties__felix-version>2.3.7</m:properties__felix-version>
+		<m:properties__sonatypeOssDistMgmtSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</m:properties__sonatypeOssDistMgmtSnapshotsUrl>
+		<m:properties__jetty7-version>7.6.9.v20130131</m:properties__jetty7-version>
+		<m:properties__jetty9-version>9.1.1.v20140108</m:properties__jetty9-version>
+		<m:properties__jetty-version>6.1.22</m:properties__jetty-version>
+		<m:maven.plugins>org.apache.maven.plugins__maven-enforcer-plugin__1.0-beta-1|org.apache.maven.plugins__maven-enforcer-plugin__1.0-beta-1|null__maven-compiler-plugin__2.3.2|org.mortbay.jetty__jetty-maven-plugin__7.6.0.RC4|org.apache.maven.plugins__maven-jar-plugin__2.3.1|org.apache.maven.plugins__maven-site-plugin__2.1|org.apache.maven.plugins__maven-release-plugin__2.5|null__maven-clean-plugin__2.4|org.apache.maven.plugins__maven-enforcer-plugin__1.0-beta-1|org.apache.maven.plugins__maven-enforcer-plugin__1.0-beta-1|null__maven-compiler-plugin__2.3.2|org.mortbay.jetty__jetty-maven-plugin__7.6.0.RC4|org.apache.maven.plugins__maven-jar-plugin__2.3.1|org.apache.maven.plugins__maven-site-plugin__2.1|org.apache.maven.plugins__maven-release-plugin__2.5|null__maven-clean-plugin__2.4|org.apache.felix__maven-bundle-plugin__2.3.7</m:maven.plugins>
+		<m:properties__slf4j-version>1.6.1</m:properties__slf4j-version>
+		<m:properties__tomcat7-version>7.0.35</m:properties__tomcat7-version>
+		<m:properties__shiro-version>1.2.2</m:properties__shiro-version>
+		<m:properties__servlet-version-range>[2.5,4)</m:properties__servlet-version-range>
+		<m:properties__jaxb-version>2.1</m:properties__jaxb-version>
+		<m:properties__grizzly2-version>2.3.12</m:properties__grizzly2-version>
+		<m:properties__shade-version>1.2.1</m:properties__shade-version>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:properties__jms-version>1.1</m:properties__jms-version>
+		<m:properties__guice-version>2.0</m:properties__guice-version>
+		<m:properties__ahc.version>1.7.7</m:properties__ahc.version>
+		<m:properties__logback-version>1.0.13</m:properties__logback-version>
+		<m:properties__jersey-version>1.18.1</m:properties__jersey-version>
+		<m:properties__jboss-version>2.1.1.GA</m:properties__jboss-version>
+		<m:properties__jedis.version>2.0.0</m:properties__jedis.version>
+		<m:properties__slf4j-impl-version>1.6.1</m:properties__slf4j-impl-version>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="private" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+		<artifact name="atmosphere-runtime" type="bundle" ext="jar" conf="master"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.apache.geronimo.specs" name="geronimo-servlet_3.0_spec" rev="1.0" force="true" conf="optional->compile(*),provided(*),runtime(*),master(compile)"/>
+		<dependency org="org.eclipse.jetty.websocket" name="websocket-server" rev="9.1.1.v20140108" force="true" conf="optional->compile(*),provided(*),runtime(*),master(compile)">
+			<exclude org="javax.servlet" module="servlet-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.eclipse.jetty" name="jetty-util" rev="9.1.1.v20140108" force="true" conf="optional->compile(*),provided(*),runtime(*),master(compile)">
+			<exclude org="javax.servlet" module="servlet-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.eclipse.jetty" name="jetty-continuation" rev="7.6.9.v20130131" force="true" conf="optional->compile(*),provided(*),runtime(*),master(compile)">
+			<exclude org="javax.servlet" module="servlet-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.glassfish.grizzly" name="grizzly-comet" rev="2.3.12" force="true" conf="optional->compile(*),provided(*),runtime(*),master(compile)"/>
+		<dependency org="org.glassfish.grizzly" name="grizzly-websockets" rev="2.3.12" force="true" conf="optional->compile(*),provided(*),runtime(*),master(compile)"/>
+		<dependency org="org.glassfish.grizzly" name="grizzly-http-servlet" rev="2.3.12" force="true" conf="optional->compile(*),provided(*),runtime(*),master(compile)"/>
+		<dependency org="com.sun.grizzly" name="grizzly-websockets" rev="1.9.57" force="true" conf="optional->compile(*),provided(*),runtime(*),master(compile)"/>
+		<dependency org="com.sun.grizzly" name="grizzly-framework-http" rev="1.0.31" force="true" conf="optional->compile(*),provided(*),runtime(*),master(compile)">
+			<exclude org="javax.servlet" module="servlet-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="com.sun.grizzly" name="grizzly-comet" rev="1.9.57" force="true" conf="provided->compile(*),provided(*),runtime(*),master(compile)"/>
+		<dependency org="com.sun.grizzly" name="grizzly-compat" rev="1.9.57" force="true" conf="provided->compile(*),provided(*),runtime(*),master(compile)"/>
+		<dependency org="org.atmosphere.jboss.as" name="jboss-as-websockets" rev="0.5" force="true" conf="provided->compile(*),provided(*),runtime(*),master(compile)"/>
+		<dependency org="org.jboss" name="jboss-vfs" rev="3.1.0.Final" force="true" conf="provided->compile(*),provided(*),runtime(*),master(compile)"/>
+		<dependency org="org.atmosphere" name="atmosphere-compat-jbossweb" rev="2.0.1" force="true" conf="provided->compile(*),provided(*),runtime(*),master(compile)"/>
+		<dependency org="org.atmosphere" name="atmosphere-compat-tomcat" rev="2.0.1" force="true" conf="provided->compile(*),provided(*),runtime(*),master(compile)"/>
+		<dependency org="org.atmosphere" name="atmosphere-compat-tomcat7" rev="2.0.1" force="true" conf="provided->compile(*),provided(*),runtime(*),master(compile)"/>
+		<dependency org="org.apache.tomcat" name="tomcat-catalina" rev="7.0.35" force="true" conf="optional->compile(*),provided(*),runtime(*),master(compile)">
+			<exclude org="org.apache.tomcat" module="servlet-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.apache.tomcat" name="tomcat-coyote" rev="7.0.35" force="true" conf="optional->compile(*),provided(*),runtime(*),master(compile)">
+			<exclude org="org.apache.tomcat" module="servlet-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="javax.websocket" name="javax.websocket-api" rev="1.0" force="true" conf="provided->compile(*),provided(*),runtime(*),master(compile)"/>
+		<dependency org="org.mockito" name="mockito-all" rev="1.8.5" force="true" conf="test->runtime(*),master(compile)"/>
+		<dependency org="org.apache.shiro" name="shiro-core" rev="1.2.2" force="true" conf="provided->compile(*),provided(*),runtime(*),master(compile)"/>
+		<dependency org="org.atmosphere" name="atmosphere-stubs" rev="1.0.0" force="true" conf="provided->compile(*),provided(*),runtime(*),master(compile)"/>
+		<dependency org="org.apache.shiro" name="shiro-web" rev="1.2.2" force="true" conf="provided->compile(*),provided(*),runtime(*),master(compile)"/>
+		<dependency org="org.eclipse.jetty" name="jetty-websocket" rev="7.6.9.v20130131" force="true" conf="provided->compile(*),provided(*),runtime(*),master(compile)">
+			<exclude org="javax.servlet" module="servlet-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.testng" name="testng" rev="5.8" force="true" conf="test->runtime(*),master(compile)">
+			<artifact name="testng" type="jar" ext="jar" conf="" m:classifier="jdk15"/>
+		</dependency>
+		<dependency org="org.mortbay.jetty" name="jetty" rev="6.1.22" force="true" conf="provided->compile(*),provided(*),runtime(*),master(compile)">
+			<exclude org="org.mortbay.jetty" module="servlet-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.mortbay.jetty" name="jetty-util" rev="6.1.22" force="true" conf="provided->compile(*),provided(*),runtime(*),master(compile)">
+			<exclude org="org.mortbay.jetty" module="servlet-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.mortbay.jetty" name="jetty-management" rev="6.1.22" force="true" conf="provided->compile(*),provided(*),runtime(*),master(compile)">
+			<exclude org="org.mortbay.jetty" module="servlet-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="com.ning" name="async-http-client" rev="1.7.7" force="true" conf="test->runtime(*),master(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.6.1" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="org.slf4j" name="jul-to-slf4j" rev="1.6.1" force="true" conf="test->runtime(*),master(compile)"/>
+		<dependency org="org.slf4j" name="jcl-over-slf4j" rev="1.6.1" force="true" conf="test->runtime(*),master(compile)"/>
+		<dependency org="ch.qos.logback" name="logback-core" rev="1.0.13" force="true" conf="test->runtime(*),master(compile)"/>
+		<dependency org="ch.qos.logback" name="logback-classic" rev="1.0.13" force="true" conf="test->runtime(*),master(compile)"/>
+		<override org="org.apache.maven" module="maven-plugin-tools-api" matcher="exact" rev="2.0"/>
+		<override org="org.apache.felix" module="maven-bundle-plugin" matcher="exact" rev="2.3.7"/>
+	</dependencies>
+</ivy-module>

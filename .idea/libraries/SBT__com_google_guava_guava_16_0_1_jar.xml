@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: com.google.guava:guava:16.0.1:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.ivy/cache/com.google.guava/guava/bundles/guava-16.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

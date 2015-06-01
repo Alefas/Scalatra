@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: com.fasterxml.jackson.core:jackson-core:2.3.5:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.ivy/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.3.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

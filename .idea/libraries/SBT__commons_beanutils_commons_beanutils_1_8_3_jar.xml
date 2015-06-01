@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: commons-beanutils:commons-beanutils:1.8.3:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.ivy/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.8.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

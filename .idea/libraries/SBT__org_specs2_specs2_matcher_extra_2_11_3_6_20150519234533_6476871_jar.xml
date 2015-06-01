@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: org.specs2:specs2-matcher-extra_2.11:3.6-20150519234533-6476871:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.ivy/cache/org.specs2/specs2-matcher-extra_2.11/jars/specs2-matcher-extra_2.11-3.6-20150519234533-6476871.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

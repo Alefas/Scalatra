@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: org.atmosphere:wasync:2.1.2:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.ivy/cache/org.atmosphere/wasync/bundles/wasync-2.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

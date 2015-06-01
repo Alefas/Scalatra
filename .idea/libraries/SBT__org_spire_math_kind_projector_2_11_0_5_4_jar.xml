@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: org.spire-math:kind-projector_2.11:0.5.4:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.ivy/cache/org.spire-math/kind-projector_2.11/jars/kind-projector_2.11-0.5.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

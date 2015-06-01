@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: org.springframework:spring-core:4.1.5.RELEASE:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.ivy/cache/org.springframework/spring-core/jars/spring-core-4.1.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

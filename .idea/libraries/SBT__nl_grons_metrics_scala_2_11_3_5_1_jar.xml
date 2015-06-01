@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: nl.grons:metrics-scala_2.11:3.5.1:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.ivy/cache/nl.grons/metrics-scala_2.11/jars/metrics-scala_2.11-3.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

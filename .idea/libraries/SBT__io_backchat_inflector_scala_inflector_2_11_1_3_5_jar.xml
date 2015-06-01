@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: io.backchat.inflector:scala-inflector_2.11:1.3.5:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.ivy/cache/io.backchat.inflector/scala-inflector_2.11/jars/scala-inflector_2.11-1.3.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

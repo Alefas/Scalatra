@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: io.dropwizard.metrics:metrics-servlets:3.1.2:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.ivy/cache/io.dropwizard.metrics/metrics-servlets/bundles/metrics-servlets-3.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

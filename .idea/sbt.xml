@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="jdk" value="1.6" />
+        <option name="sbtVersion" value="0.13.8" />
+      </SbtProjectSettings>
+    </option>
+    <option name="vmParameters" value="-XX:MaxPermSize=384M -Dsbt.ivy.home=/Users/user/Work/Projects/scalatra/.ivy -Divy.home=/Users/user/Work/Projects/scalatra/.ivy" />
+  </component>
+</project>

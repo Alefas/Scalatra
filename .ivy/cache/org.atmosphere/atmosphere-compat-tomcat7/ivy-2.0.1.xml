@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="org.atmosphere"
+		module="atmosphere-compat-tomcat7"
+		revision="2.0.1"
+		status="release"
+		publication="20130917201607"
+	>
+		<description homepage="https://github.com/Atmosphere/atmosphere" />
+		<m:properties__jbossaswebsockets-version>0.5</m:properties__jbossaswebsockets-version>
+		<m:dependency.management__org.apache.maven__maven-plugin-tools-api__version>2.0</m:dependency.management__org.apache.maven__maven-plugin-tools-api__version>
+		<m:dependency.management__org.apache.felix__maven-bundle-plugin__version>2.3.7</m:dependency.management__org.apache.felix__maven-bundle-plugin__version>
+		<m:properties__tomcat7-version>7.0.35</m:properties__tomcat7-version>
+		<m:properties__common-logging-version>1.1.1</m:properties__common-logging-version>
+		<m:properties__servlet-version>3.0-b74b</m:properties__servlet-version>
+		<m:properties__scala.version>2.9.2</m:properties__scala.version>
+		<m:properties__tomcat-version>6.0.35</m:properties__tomcat-version>
+		<m:properties__shade-version>1.2.1</m:properties__shade-version>
+		<m:properties__maven-plugin.version>1.0.0</m:properties__maven-plugin.version>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:properties__felix-version>2.3.7</m:properties__felix-version>
+		<m:properties__sonatypeOssDistMgmtSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</m:properties__sonatypeOssDistMgmtSnapshotsUrl>
+		<m:maven.plugins>org.apache.maven.plugins__maven-enforcer-plugin__1.0-beta-1|org.apache.maven.plugins__maven-enforcer-plugin__1.0-beta-1|null__maven-compiler-plugin__2.3.2|org.mortbay.jetty__jetty-maven-plugin__7.6.0.RC4|org.apache.maven.plugins__maven-jar-plugin__2.3.1|org.apache.maven.plugins__maven-site-plugin__2.1|org.apache.maven.plugins__maven-release-plugin__2.1|null__maven-clean-plugin__2.4|org.apache.maven.plugins__maven-enforcer-plugin__1.0-beta-1|org.apache.maven.plugins__maven-enforcer-plugin__1.0-beta-1|null__maven-compiler-plugin__2.3.2|org.mortbay.jetty__jetty-maven-plugin__7.6.0.RC4|org.apache.maven.plugins__maven-jar-plugin__2.3.1|org.apache.maven.plugins__maven-site-plugin__2.1|org.apache.maven.plugins__maven-release-plugin__2.1|null__maven-clean-plugin__2.4|org.apache.felix__maven-bundle-plugin__2.3.7</m:maven.plugins>
+		<m:properties__jboss-version>2.1.1.GA</m:properties__jboss-version>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="private" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+		<artifact name="atmosphere-compat-tomcat7" type="bundle" ext="jar" conf="master"/>
+	</publications>
+	<dependencies>
+		<dependency org="javax.servlet" name="servlet-api" rev="2.5" force="true" conf="provided->compile(*),provided(*),runtime(*),master(compile)"/>
+		<override org="org.apache.maven" module="maven-plugin-tools-api" matcher="exact" rev="2.0"/>
+		<override org="org.apache.felix" module="maven-bundle-plugin" matcher="exact" rev="2.3.7"/>
+	</dependencies>
+</ivy-module>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: commons-validator:commons-validator:1.4.1:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.ivy/cache/commons-validator/commons-validator/jars/commons-validator-1.4.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
